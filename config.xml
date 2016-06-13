@@ -1,0 +1,32 @@
+      <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.serviciossc"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Servicios S/C</name>
+
+    <description>
+       aplicacion que sirve de guia para que los usuarios puedan encontrar el servicio que necesitan sin dar tantas vueltas 
+    </description>
+
+    <author >
+        oriana dilimar manrique
+    </author>
+    
+     <content src="/www/index.html" />
+    <access origin="*" />
+
+    <preference name="Fullscreen" value="true" />
+        <platform name="android" minVersion="2.3">
+        <preference name="Fullscreen" value="true" />
+    </platform>
+   
+    <feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+</feature>
+
+</widget>
