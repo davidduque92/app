@@ -3,22 +3,19 @@
          >
 
 
-    <name>Servicios S/C</name>
+    <name>Servicios S/C </name>
 
     <description>
-       aplicacion que sirve de guia para que los usuarios puedan encontrar el servicio que necesitan sin dar tantas vueltas 
+       aplicacion que sirve de guia para que los usuarios puedan encontrar el servicio que necesitan 
     </description>
 
     <author >
-        oriana dilimar manrique
+        Oriana Dilimar Manrique Olivares
     </author>
     
      <content src="/www/index.html" />
     <access origin="*" />
-        <platform name="android" >
-        <preference name="Fullscreen" value="true" />
-    </platform>
-   
+        
   
 
 </widget>
