@@ -8,4 +8,7 @@
         </author>
         <content src="www/index.html" />
         <access origin="192.168.1.105/appserviciosdb" />
+        <config-file platform="android" parent="/manifest">
+            <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
+        </config-file>
     </widget>
