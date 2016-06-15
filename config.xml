@@ -1,4 +1,4 @@
-    <widget version="0.0.1">
+    <widget id="serviciosSC" version="0.0.1">
         <name>S/C servicios</name>
         <description>
             aplicacion de servicios 
