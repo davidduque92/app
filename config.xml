@@ -1,4 +1,4 @@
-    <widget id="*" version="0.0.1">
+    <widget  >
         <name>S/C servicios</name>
         <description>
             aplicacion de servicios 
@@ -6,6 +6,6 @@
         <author email="mdilimar@hotmail.com" >
          dilimar manrique 
         </author>
-        <content src="index.html" />
+        <content src="www/index.html" />
         <access origin="*" />
     </widget>
