@@ -12,8 +12,9 @@
         Oriana Dilimar Manrique Olivares
     </author>
     
-     <content src="/www/index.html" />
-   
+      <content src="www/index.html" />
+        <access origin="*" />
+      <preference name="Fullscreen" value="true" />
         
   
 
