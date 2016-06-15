@@ -1,22 +1,11 @@
-      <?xml version="1.0" encoding="UTF-8" ?>
-    <widget >
-
-
-    <name>Servicios S/C </name>
-
-    <description>
-       aplicacion que sirve de guia para que los usuarios puedan encontrar el servicio que necesitan 
-    </description>
-
-    <author >
-        Oriana Dilimar Manrique Olivares
-    </author>
-    
-      <content src="www/index.html" />
-        <access origin="192.168.1.105/appserviciosdb" />
-      <preference name="Fullscreen" value="true" />
-      <preference name="DisallowOverscroll" value="true"/>
-        
-  
-
-</widget>
+    <widget id="*" version="0.0.1">
+        <name>S/C servicios</name>
+        <description>
+            aplicacion de servicios 
+        </description>
+        <author email="mdilimar@hotmail.com" >
+         dilimar manrique 
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+    </widget>
